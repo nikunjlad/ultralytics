@@ -39,6 +39,7 @@ from ultralytics.utils.torch_utils import TORCH_1_9
 
 IS_TMP_WRITEABLE = is_dir_writeable(TMP)  # WARNING: must be run once tests start as TMP does not exist on tests/init
 
+
 def create_temp_image(tmp_path, filename, ext, img):
     """Helper function to create a temporary image file of a specified format."""
     # Encode image using the specified extension and write to temporary file.
